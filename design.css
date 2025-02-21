@@ -1,0 +1,505 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+
+.navbarr {
+    background-color: rgba(73, 158, 195, 255);
+}
+
+.nav-list {
+    list-style: none;
+    /* float: left; */
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    padding: 30px 20px;
+    display: inline-block;
+}
+
+.nav-list a:hover {
+    color: rgba(178, 219, 235, 0.925);
+    /* color: rgb(33, 141, 155); */
+}
+
+.nav-list .active-a {
+    color: rgba(178, 219, 235, 0.925);
+    
+}
+
+.navbar-wrapper ul {
+    display: flex;
+
+}
+
+.navbar-wrapper {
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+
+}
+
+/* HEADER SECTION ENDS HERE  */
+/* banner starts here  */
+.banner {
+    background-image: url("./assets/images/main-slider-img-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    position: relative;
+    margin-top:84px ;
+}
+
+.banner-wrapper {
+    
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.banner-wrapper .content ul {
+    display: flex;
+    padding-left: 0;
+    margin-top: 30px;
+}
+
+.banner-wrapper .content ul li {
+    margin-right: 20px;
+    list-style: none;
+}
+
+h1 {
+    color: white;
+
+}
+
+h1 span {
+    font-size: 4rem;
+    display: block;
+}
+
+.buttonn {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 15px 30px;
+    font-size: 0.8rem;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+.buttonn:hover {
+    background-color: white;
+    color: rgba(19,107,174,255);
+}
+
+.active-button {
+    background-color: white;
+    color: rgba(19,107,174,255);
+}
+
+.bottom-indicator {
+    position: absolute;
+    bottom: 8vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bottom-indicator span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+  
+}
+.bottom-indicator .active-indicator{
+    background-color: white;
+   
+}
+.bottom-indicator span:hover {
+    background-color: white;
+}
+
+.bottom-indicator ul{
+    display: flex;
+}
+.bottom-indicator li{
+    list-style: none;
+    margin-right: 5px;
+}
+.bottom-indicator ul li a{
+    display: inline-block;
+}
+
+/* banner ends here  */
+
+
+/* timetable section starts  */
+.timetable-page{
+    background-color: rgba(247,250,251,255);
+
+}
+.timetable-wrapper{
+    background-color: white;
+    position: relative;
+    top: -50px;
+    z-index: 1;
+    
+}
+.timetable-cards{
+    display: flex;
+    background-color: white;
+}
+.timetable-card{
+    width: 33.33%;
+    padding: 30px 30px;
+   
+}
+.timetable-card:nth-child(1){
+    border-bottom: 10px solid rgba(19,107,174,255);
+}
+.timetable-card h2{
+color: rgba(19,107,174,255);
+
+}
+
+.timetable-card ul li{
+    display: flex;
+    justify-content: space-between;
+   padding-top: 40px;
+   padding-bottom: 10px;
+   border-bottom: 1px solid rgba(201, 201, 201, 0.452);
+   list-style: none;
+    
+}
+.timetable-card ul li:first-child{
+    padding-top: 20px;
+ 
+}
+.timetable-card ul li span:nth-child(2){
+    color: rgba(19,107,174,255);
+}
+.timetable-card ul li span:nth-child(1){
+font-weight: 700;
+}
+.calendar-button{
+    font-size   : 0.9rem;
+    border: 1px solid rgba(19,107,174,255);
+    letter-spacing: 1px;
+}
+.calendar-button svg{
+    width: 15px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.timetable-card p{
+    font-weight: 300;
+}
+.telephone svg{
+    width: 30px;
+    margin-right: 10px;
+
+}
+.telephone{
+    font-size:2rem;
+}
+.timetable-card:nth-child(2){
+    border-bottom: 10px solid rgb(12, 77, 128);
+}
+.timetable-card:nth-child(3){
+    border-bottom: 10px solid rgb(7, 45, 75);
+}
+/* timetable section ends  */
+/* services section starts  */
+.services-page{
+    background-color: rgba(247,250,251,255);
+}
+.services-card{
+    width: 33.33%;
+}
+.services-cards h5{
+    font-weight: 700;
+}
+.services-cards p{
+    font-weight: 300;
+}
+.services-wrapper{
+    padding-bottom: 80px;
+}
+/* services section ends  */
+/* WELCOME SECTION STARTS  */
+.welcome-wrapper{
+    padding: 80px 0;
+}
+.welcome-page{
+    background-image: url("./assets/images/fullwidth-img-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.welcome-wrapper h2{
+    color: white;
+    font-size: 3rem;
+}
+
+.welcome-wrapper p:first-of-type{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+    width: 50%;
+}
+.welcome-wrapper p:last-of-type{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 200;
+    width: 50%;
+}
+/* WELCOME SECTION ENDS  */
+/* Departments section starts  */
+.departments-wrapper{
+    padding: 60px 0;
+}
+.department-1{
+    text-align: center;
+}
+.department-row{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+   
+}
+.department-row .department-card p{
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.department-card{
+    text-align: center;
+    padding: 10px 15px;
+}
+/* department section ends   */
+/* quotes-section starts  */
+.quotes-page{
+    background-image: url("./assets/images/hospitalroom.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quotes-wrapper{
+    padding: 100px 0;
+    text-align: center;
+    /* background-color: red; */
+    position: relative;
+}
+.quotes-wrapper .image-wrapper{
+    max-width: 150px;
+
+}
+.quotes-wrapper .image-wrapper img{
+    max-width: 100%;
+
+}
+.quotes-wrapper h2{
+    color: rgba(19,107,174,255);
+    width: 90%;
+    margin: auto;
+    /* font-size: 2rem; */
+}
+.quotes-wrapper p:first-of-type{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.quotes-wrapper p:last-of-type{
+    font-weight: 500;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+.quotes-wrapper svg{
+    width: 30px;
+}
+.quotes-wrapper svg:first-of-type{
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.quotes-wrapper svg:last-of-type{
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+/* quotes section ends  */
+
+
+/* specialists-section-starts */
+.medical-specialists-page{
+    background-color: rgba(247,250,251,255);
+}
+.specialists-wrapper{
+    padding: 80px 0;
+}
+.specialist-card:hover{
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+.specialist-card:hover .image-wrapper .overlay{
+    display: block;
+}
+.specialist-card ul li span svg{
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+.specialist-card  p{
+    color: rgba(136, 136, 136, 0.664);
+    font-size: 1.2rem;
+    display: inline-block;
+    
+}
+
+.specialist-card ul li{
+    list-style: none;
+
+}
+
+.specialist-card .department{
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+
+}
+.specialist-card h4{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    
+}
+.specialist-card .image-wrapper{
+   position: relative;
+    min-height: 279px;
+    min-height: 279px;
+    
+}
+.specialist-card .image-wrapper img{
+   min-height: 100%;
+   max-width: 100%;
+    
+}
+.image-wrapper .overlay{
+    min-width: 100%;
+    min-height: 100%;
+    background-color:rgba(0, 0, 0, 0.541);
+    position: absolute;
+    z-index: 1;
+    top: 0;
+   display: none;
+}
+
+ .overlay svg{
+    width: 15px;
+    margin-right: 10px;
+}
+.overlay .icons{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* specialists section ends */
+
+/* appointment section starts here */
+.appointment-page{
+    position: relative;
+}
+.appointment-wrapper{
+    padding: 80px 0;
+    color: white;
+}
+
+.appointment-wrapper .left-content select{
+    color: white;
+}
+.appointment-wrapper h2{
+    position: relative;
+    padding-bottom: 30px;
+}
+.appointment-wrapper h2::after{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+}
+
+.select-bar{
+    width: 80%;
+    border: none;
+    color: white;
+    background-color: transparent;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(201, 201, 201, 0.452);
+}
+
+
+.appointment-wrapper .right-content p{
+    color: rgba(19,107,174,255);
+    font-size: 1.2rem;
+    font-weight: 400;
+    
+}
+
+.appointment-page .blue-background{
+    background-color: rgba(73, 158, 195, 255);
+    position: absolute;
+    min-height: 100%;
+    min-width: 50%;
+    z-index: -1;
+}
+
+.right-wrapper{
+    width: 65%;
+    margin: auto;
+}
+.right-wrapper h2{
+    color: black;
+
+}
+.right-wrapper h2::after{
+background-color: rgba(73, 158, 195, 255);
+}
+.admin {
+    color: rgba(73, 158, 195, 255);
+    margin-bottom: 30px;
+    position: relative;
+}
+.admin::after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color:black ;
+}
+.admin svg{
+    width: 20px;
+}
+/* appointment section ends here  */
