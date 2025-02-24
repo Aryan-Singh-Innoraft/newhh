@@ -439,7 +439,7 @@ font-weight: 700;
     position: relative;
     padding-bottom: 30px;
 }
-.appointment-wrapper h2::after{
+ h2::after{
     content: "";
     position: absolute;
     width: 80px;
@@ -503,3 +503,91 @@ background-color: rgba(73, 158, 195, 255);
     width: 20px;
 }
 /* appointment section ends here  */
+/* client section  */
+.client-banner{
+    background-color: rgba(247,250,251,255);
+}
+.card-client{
+    padding: 50px 0;
+}
+.card-client img{
+    max-width: 100%;
+    height: auto;
+    margin: auto 0;
+}
+/* client section ends  */
+
+.footer-top .left-section input{
+    background-color: rgba(255, 255, 255, 0.137);
+ 
+}
+
+.footer-top .left-section{
+    position: relative;
+   
+}
+
+.footer-top .left-section svg{
+    width: 25px;
+    position: absolute;
+    right: 20px;
+   top: 8px;
+    
+}
+
+.footer{
+    background-color: rgba(145,155,166,255);
+}
+
+.footer-top{
+    padding: 40px 0;
+}
+
+.footer-bottom{
+    color: white;
+    padding: 140px 0;
+}
+.footer-bottom ul li{
+    list-style: none;
+    
+}
+
+.footer-top .right-section span{
+    width: 20px;
+    display: inline-block;
+    margin: 8px ;
+}
+
+.footer-bottom{
+    padding: 40px 0;
+}
+.footer-card-wrapper .footer-card h2{
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+   
+}
+.footer-cards{
+    padding: 40px 0;
+}
+
+
+.footer-card-wrapper .footer-card h2::after{
+  
+    background-color: white;
+    }
+.footer-bottom .footer-card a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-wrapper p{
+    padding-right: 20px;
+    width: 90%;
+}
+.footer-wrapper p span{
+    display: block;
+}
+
+
